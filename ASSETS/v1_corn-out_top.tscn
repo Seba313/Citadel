@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://MATERIAL/v1_wall1.material" type="Material" id=1]
+[ext_resource path="res://MATERIAL/v1_wall1.tres" type="Material" id=2]
 
 [sub_resource type="ArrayMesh" id=1]
 resource_name = "v1_corn-out_top"
@@ -25,7 +26,7 @@ data = PoolVector3Array( -0.0989, -0.52, -0.2014, 0.0354, -0.48, -0.2651, 0.0142
 
 [node name="v1_corn-out_top" type="MeshInstance" parent="."]
 mesh = SubResource( 1 )
-material/0 = ExtResource( 1 )
+material/0 = ExtResource( 2 )
 
 [node name="StaticBody" type="StaticBody" parent="v1_corn-out_top"]
 
