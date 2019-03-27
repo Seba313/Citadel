@@ -16,37 +16,37 @@
 [ext_resource path="res://ASSETS/v1_floor_01.tscn" type="PackedScene" id=14]
 
 [node name="main" type="Spatial"]
-transform = Transform( 1, 0, -2.86625e-08, 0, 1, 0, 2.86625e-08, 0, 1, 0, 0, 0 )
+transform = Transform( 1, 0, -2.86625e-008, 0, 1, 0, 2.86625e-008, 0, 1, 0, 0, 0 )
 
 [node name="v1_wall_mid_01" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, -4.06055e-10, -2.8777e-12, 4.06055e-10, 0.9999, 0.0141668, -2.8777e-12, -0.0141668, 0.9999, 0, 0, 0 )
+transform = Transform( 1, -4.06055e-010, -2.8777e-012, 4.06055e-010, 0.9999, 0.0141668, -2.8777e-012, -0.0141668, 0.9999, 0, 0, 0 )
 
 [node name="v1_wall_bot" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0 )
 
 [node name="v1_corn-ins_mid" parent="." instance=ExtResource( 3 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 5.7325e-08 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 5.7325e-008 )
 
 [node name="v1_corn-out_mid" parent="." instance=ExtResource( 4 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -5.7325e-08 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -5.7325e-008 )
 
 [node name="v1_corn-ins_bot" parent="." instance=ExtResource( 5 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, 5.7325e-08 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, -2, 5.7325e-008 )
 
 [node name="v1_corn-out_bot" parent="." instance=ExtResource( 6 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, -5.7325e-08 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, -5.7325e-008 )
 
 [node name="v1_corn-out_top" parent="." instance=ExtResource( 7 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, -5.7325e-08 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, -5.7325e-008 )
 
 [node name="v1_corn-ins_top" parent="." instance=ExtResource( 8 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 2, 5.7325e-08 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 2, 5.7325e-008 )
 
 [node name="v1_wall_top" parent="." instance=ExtResource( 9 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0 )
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.64561e-08, 0, 3.36524 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.64561e-008, 0, 3.36524 )
 
 [node name="v1_wall-floor-corn_ins" parent="." instance=ExtResource( 10 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, 2 )
@@ -58,11 +58,11 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, -2, 2 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, -2, 4 )
 
 [node name="v1_wall-floor" parent="." instance=ExtResource( 12 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1465e-07, -2, 4 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1465e-007, -2, 4 )
 
 [node name="v1_ceil_01" parent="." instance=ExtResource( 13 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.7325e-08, 2, 2 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.7325e-008, 2, 2 )
 
 [node name="v1_floor_01" parent="." instance=ExtResource( 14 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.7325e-08, -2, 2 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.7325e-008, -2, 2 )
 
