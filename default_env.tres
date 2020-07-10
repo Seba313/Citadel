@@ -7,4 +7,3 @@ sky_top_color = Color( 1, 1, 1, 1 )
 background_mode = 2
 background_sky = SubResource( 1 )
 ssao_enabled = true
-
